@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap G-3</title>
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css"> 
+  </head>
+<body>
+  <button class="tablink" onclick="openPage('Asignar_servicios', this)" style='float:right'>Asignar_servicios</button>  
+  <button class="tablink" onclick="openPage('Empleados', this)" style='float:right'>Empleados</button>  
+  <button class="tablink" onclick="openPage('Servicios', this)" style='float:right'>Servicios</button>
+  <div id="Asignar_servicios" class="tabcontent" style= "display: none">
+    <div class="row">
+      <div class="col-2"><label for="exampleSelect1">Empleado:</label></div>
+      <div class="col-5">
+        <select class="form-select" id="exampleSelect1">
+          <option>Sofía Vergara</option>
+          <option>Carlos Valderrama</option>
+          <option>Agosto Catedral</option>
+          <option>Haruki Murakami</option>
+          <option>Glenn Davis</option>
+        </select>
+      </div>
+      <div class="col-4"></div>
+      <div class="col-3"></div>
+      <div class="col"><fieldset class="form-group">
+        <legend>Servicios</legend>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+            Peluquería
+          </label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+            Cosmetología
+          </label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="option3">
+            Masajes
+          </label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios4" value="option4">
+            Manicura
+          </label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios5" value="option5">
+            Podología
+          </label>
+        </div>
+      </div>
+      <div class="col-5"></div>
+      <div class="col-3"></div>
+      <div class="col-3">
+        </fieldset>
+          <button type="submit" class="btn btn-primary">Ingresar</button>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+  <div id="Empleados" class="tabcontent">
+    <div class="row">
+      <div class="col-2"><label>Nombres:</label></div>
+      <div class="col-6">
+        <input type="text" class="form-control" id="nombre">
+      </div>  
+      <div class="col-3"></div>    
+      <div class="col-2"><label>Apellidos:</label></div>
+      <div class="col-6">
+        <input type="text" class="form-control" id="apellido">
+      </div>
+      <div class="col-3"></div>
+      <div class="col-2"><label>Fecha de ingreso:</label></div>
+      <div class="col-2">
+        <input type="date" class="form-control" id="nombre">
+      </div>
+      <div class="col-2"></div>
+      <div class="col-2"><label>Especialidades:</label></div>
+      <div class="col-3"></div>
+      <div class="col-2"><label>Cédula:</label></div>
+      <div class="col-2"><input type="text" class="form-control" id="cedula"></div>
+      <div class="col-2"></div>
+      <div class="col-2">
+        <label class="form-check-label">
+          <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1">
+          Peluquería
+        </label>
+      </div>
+      <div class="col-3"></div>
+      <div class="col-2"><label>EPS:</label></div>
+      <div class="col-2"><input type="text" class="form-control" id="eps"></div>
+      <div class="col-2"></div>
+      <div class="col-2">
+        <label class="form-check-label">
+          <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+          Cosmetología
+        </label>
+      </div>
+      <div class="col-3"></div>
+      <div class="col-2"><label>AFP:</label></div>
+      <div class="col-2"><input type="text" class="form-control" id="afp"></div>
+      <div class="col-2"></div>
+      <div class="col-2">
+        <label class="form-check-label">
+          <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="option3">
+          Masajes
+        </label>
+      </div>
+      <div class="col-3"></div>
+      <div class="col-2"><label>ARL:</label></div>
+      <div class="col-2"><input type="text" class="form-control" id="arl"></div>
+      <div class="col-2"></div>
+      <div class="col-2">
+        <label class="form-check-label">
+          <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios4" value="option4">
+          Manicura
+        </label>
+      </div>
+      <div class="col-3"></div>
+      <div class="col-6"></div>
+      <div class="col-2">
+        <label class="form-check-label">
+          <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios5" value="option5">
+          Podología
+        </label>
+      </div>
+      <div class="col-3"></div>
+      <div class="col-4"></div>
+      <div class="col">
+      </fieldset>
+        <button type="submit" class="btn btn-primary">Ingresar</button>
+      </fieldset>
+      </div>
+    </div>
+  </div>
+  <div id="Servicios" class="tabcontent" style= "display: none">
+    <div class="row">
+      <div class="col-2"></div>
+      <div class="col-3">
+        <select class="form-select" id="exampleSelect1">
+          <option>Peluquería</option>
+          <option>Cosmetología</option>
+          <option>Masajes</option>
+          <option>Manicura</option>
+          <option>Podología</option>
+        </select>
+      </div>
+      <div class="col-7"></div>
+      <div class="col-2"></div>
+      <div class="col-2"><label>Descripción:</label></div>
+      <div class="col-8"></div>
+      <div class="col-2"></div>
+      <div class="col-4"><textarea class="form-control" id="exampleTextarea" rows="3"></textarea></div>
+      <div class="col-6"></div>
+      <div class="col-2"></div>
+      <div class="col-2"><label>Costo:</label></div>
+      <div class="col-2"><input type="text" class="form-control" id="costo"></div>
+      <div class="col-6"></div>
+      <div class="col-2"></div>
+      <div class="col-2"><label>Duración:</label></div>
+      <div class="col-2"><input type="text" class="form-control" id="duracion"></div>
+      <div class="col-6"></div>
+      <div class="col-3"></div>
+      <div class="col">
+      </fieldset>
+        <button type="submit" class="btn btn-primary">Ingresar</button>
+      </fieldset>
+      </div>
+    </div>  
+  </div>  
+  <script>
+    function openPage(pageName,elmnt) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablink");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "";
+      }
+      document.getElementById(pageName).style.display = "block";      
+    }
+    
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+    </script>  
+</body>
+</html>
