@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import BarChart from './BarChart';
 import '../App.css';
-import { Chart } from 'chart.js';
 
 
 const metricas = [
