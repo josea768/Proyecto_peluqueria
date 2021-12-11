@@ -1,24 +1,22 @@
-import logo from './logo.svg';
+import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap/dist/js/bootstrap.bundle.js";
 import './App.css';
+import Servicios from './pages/Servicios/Servicios';
+import Empleados from './pages/Empleados/Empleados';
+import AsigServ from './pages/AsigServ/AsigServ';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div className="container">
+        <Routes>
+          <Route path="/" element={<Servicios />} />
+          <Route path="/Empleados" element={<Empleados />} />
+          <Route path="/AsigServ" element={<AsigServ />} />
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
 
