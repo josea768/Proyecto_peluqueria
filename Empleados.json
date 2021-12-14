@@ -1,6 +1,73 @@
-{Nombre:"Edith", Apellido:"Arevalo", Fecha_de_ingreso:"5/08/2014", Cédula:"51901224", EPS:"Sanitas", AFP:"Porvenir", ARL:"Liberty", Especialidad:”Podología”}
-{Nombre:"Jaime", Apellido:"Cuadrado", Fecha_de_ingreso:"22/07/2016", Cédula:"72192628", EPS:"Coomeva", AFP:"Citycolfondos", ARL:"Sura", Especialidad:”Peluquería”}
-{Nombre:"Jose", Apellido:"Diaz", Fecha_de_ingreso:"6/12/2015", Cédula:"15800800", EPS:"Saludtotal", AFP:"Proteccion", ARL:"Colmena", Especialidad:”Manicure”}
-{Nombre:"Marlon", Apellido:"Jimenez", Fecha_de_ingreso:"1/01/2017", Cédula:"72000008", EPS:"Sura", AFP:"Oldmutual", ARL:"Sura", Especialidad:”Masajes”}
-{Nombre:"Cecilia", Apellido:"Escobar", Fecha_de_ingreso:"5/05/2015", Cédula:"31452718", EPS:"Selvasalud", AFP:"Citycolfondos", ARL:"Mapfre", Especialidad:”Cosmetología”}
-{Nombre:"Roger", Apellido:"Araujo", Fecha_de_ingreso:"1/05/2016", Cédula:"25354585", EPS:"Saludcoop", AFP:"Proteccion", ARL:"Bolivar", Especialidad:”Peluquería”}
+[{
+  "_id": {
+    "$oid": "61b62dc7f74b92fa98250683"
+  },
+  "Nombre": "Jaime",
+  "Apellido": "Cuadrado",
+  "Fecha_de_ingreso": "22/07/2016",
+  "Cedula": "72192628",
+  "EPS": "Coomeva",
+  "AFP": "Citycolfondos",
+  "ARL": "Sura",
+  "Especialidad": "Peluqueria"
+},{
+  "_id": {
+    "$oid": "61b62e26f74b92fa98250684"
+  },
+  "Nombre": "Edith",
+  "Apellido": "Arevalo",
+  "Fecha_de_ingreso": "5/08/2014",
+  "Cedula": "51901224",
+  "EPS": "Sanitas",
+  "AFP": "Porvenir",
+  "ARL": "Liberty",
+  "Especialidad": "Podologia"
+},{
+  "_id": {
+    "$oid": "61b630b8f74b92fa98250685"
+  },
+  "Nombre": "Jose",
+  "Apellido": "Diaz",
+  "Fecha_de_ingreso": "6/12/2015",
+  "Cedula": "15800800",
+  "EPS": "Saludtotal",
+  "AFP": "Proteccion",
+  "ARL": "Colmena",
+  "Especialidad": "Manicure"
+},{
+  "_id": {
+    "$oid": "61b630f3f74b92fa98250686"
+  },
+  "Nombre": "Marlon",
+  "Apellido": "Jimenez",
+  "Fecha_de_ingreso": "1/01/2017",
+  "Cedula": "72000008",
+  "EPS": "Sura",
+  "AFP": "Oldmutual",
+  "ARL": "Sura",
+  "Especialidad": "Masajes"
+},{
+  "_id": {
+    "$oid": "61b6312ff74b92fa98250687"
+  },
+  "Nombre": "Cecilia",
+  "Apellido": "Escobar",
+  "Fecha_de_ingreso": "5/05/2015",
+  "Cedula": "31452718",
+  "EPS": "Selvasalud",
+  "AFP": "Citycolfondos",
+  "ARL": "Mapfre",
+  "Especialidad": "Cosmetologia"
+},{
+  "_id": {
+    "$oid": "61b63184f74b92fa98250688"
+  },
+  "Nombre": "Roger",
+  "Apellido": "Araujo",
+  "Fecha_de_ingreso": "1/05/2016",
+  "Cedula": "25354585",
+  "EPS": "Saludcoop",
+  "AFP": "Proteccion",
+  "ARL": "Bolivar",
+  "Especialidad": "Peluqueria"
+}]

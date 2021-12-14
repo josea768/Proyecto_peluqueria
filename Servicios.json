@@ -1,5 +1,41 @@
-{Servicio:"Peluquería", Descripción:"Corte de cabello unisex, lavado, tinturado y blower", Costo:40000, Duración:1}
-{Servicio:"Cosmetología", Descripción:"Limpieza y maquillaje facial para distintas ocasiones", Costo:60000, Duración:2}
-{Servicio:"Masajes", Descripción:"Trabajo de relajación muscular localizada y/o general", Costo:80000, Duración:1.5}
-{Servicio:"Manicure", Descripción:"Arreglo de uñas e higienización general de manos", Costo:30000, Duración:1.2}
-{Servicio:"Podología", Descripción:"Arreglo de uñas e higienización general de pies", Costo:35000, Duración:1.2}
+[{
+  "_id": {
+    "$oid": "61b66823e96e9d72639b6269"
+  },
+  "Servicio": "Peluquería",
+  "Descripción": "Corte de cabello unisex, lavado, tinturado y blower",
+  "Costo": 40000,
+  "Duración": 1
+},{
+  "_id": {
+    "$oid": "61b669c0e96e9d72639b626a"
+  },
+  "Servicio": "Cosmetología",
+  "Descripción": "Limpieza y maquillaje facial para distintas ocasiones",
+  "Costo": 60000,
+  "Duración": 2
+},{
+  "_id": {
+    "$oid": "61b66a06e96e9d72639b626b"
+  },
+  "Servicio": "Masajes",
+  "Descripción": "Trabajo de relajación muscular localizada y/o general",
+  "Costo": 80000,
+  "Duración": 1.5
+},{
+  "_id": {
+    "$oid": "61b66a5be96e9d72639b626c"
+  },
+  "Servicio": "Manicure",
+  "Descripción": "Arreglo de uñas e higienización general de manos",
+  "Costo": 30000,
+  "Duración": 1.2
+},{
+  "_id": {
+    "$oid": "61b66aa1e96e9d72639b626d"
+  },
+  "Servicio": "Podología",
+  "Descripción": "Arreglo de uñas e higienización general de pies",
+  "Costo": 35000,
+  "Duración": 1.2
+}]
