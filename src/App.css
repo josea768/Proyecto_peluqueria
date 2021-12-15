@@ -1,0 +1,22 @@
+.formulario{
+  margin: 2rem;
+}
+
+.titulo{
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.subtitulo{
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.botones{
+  margin-bottom: 2rem;
+}
+
+.cuadrotexto{
+  margin: 0 auto
+}
